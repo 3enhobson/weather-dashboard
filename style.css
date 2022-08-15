@@ -1,0 +1,57 @@
+/* {
+    border: dotted red 2px;
+}*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+header{
+    background-color: lightskyblue;
+    padding: 20px 0 20px 0;
+    border-bottom: solid black 5px;
+}
+
+/*main {
+    display: flex;
+}*/
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    /*border: solid black 2px;*/
+    background-color: lightskyblue;
+    margin: 30px 30px 17px 30px;
+    padding: 5px;
+    
+}
+
+#city-search {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+
+.btn-search {
+    display: flex;
+    border: solid black 2px;
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+}
+
+/*.days {
+    margin: 5px
+}*/
+
+.days {
+    background-color: lightskyblue;
+}
