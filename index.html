@@ -31,10 +31,12 @@
                                 placeholder="Search">
                                 <i class="fas fa-search"></i>
                             </button>
+                            
                         </div>
                     </div>
-
+                    <ul id="recentSearch"></ul>
                 </div>
+                
             </div>
         </div>
 
@@ -42,34 +44,55 @@
             <div class="row mt-4  pl-3 border border-dark  rounded">
                 <div id="current-weather">
                     <h3 class="city-name mb-1 mt-2 bolder" id="current-city"></h3>
+                    <h5 id="currentDate"></h5>
 
                     <p>Temperature:<span class="current" id="temperature"></span></p>
                     <p id="icon"></p>
                     <p>Humidity:<span class="current" id="humidity"></span></p>
                     <p>Wind Speed:<span class="current" id="wind-speed"></span></p>
-                    <p>UV index:<span class="current bg-danger rounded py-2 px-2 text-white" id="uv-index"></span></p>
+                    <p>UV index:<span class="current rounded py-2 px-2 text-white" id="uv-index"></span></p>
                 </div>
             </div>
             <div class="row d-flex justify-content-between">
-                <div id="day1" class="days col-2  forecast p-2 mb-3  mt-2 rounded">
-                    <h3></h3>
+                <div  class="days col-2  forecast p-2 mb-3  mt-2 rounded">
+                    <h6>
+                        <u id="day1"></u>
+                    </h6>
                     <p id="day1Temp" ></p>
+                    <p id="day1Hum"></p>
+                    <p id="day1Wind"></p>
                 </div>
-                <div id="day2" class="days  col-2 rounded  forcast ml-2 mb-3 mt-2 p-2">
-                    <h3></h3>
-                    <p id="day2Temp" ></p>
+                <div  class="days  col-2 rounded  forcast ml-2 mb-3 mt-2 p-2">
+                    <h6>
+                        <u id="day2"></u>
+                    </h6>
+                    <p id="day2Temp" ></p>                    
+                    <p id="day2Hum"></p>
+                    <p id="day2Wind"></p>
                 </div>
-                <div id="day3" class="days  col-2 rounded  forcast ml-2 mb-3 mt-2 p-2">
-                    <h3></h3>
-                    <p></p>
+                <div  class="days  col-2 rounded  forcast ml-2 mb-3 mt-2 p-2">
+                    <h6>
+                        <u id="day3"></u>
+                    </h6>
+                    <p id="day3Temp"></p>
+                    <p id="day3Hum"></p>
+                    <p id="day3Wind"></p>
                 </div>
-                <div id="day4" class="days col-2 rounded forcast ml-2 mb-3 mt-2 p-2">
-                    <h3></h3>
-                    <p></p>
+                <div  class="days col-2 rounded forcast ml-2 mb-3 mt-2 p-2">
+                    <h6>
+                        <u id="day4"></u>
+                    </h6>
+                    <p id="day4Temp" ></p>
+                    <p id="day4Hum"></p>
+                    <p id="day4Wind"></p>
                 </div>
-                <div id="day5" class="days col-2 rounded forcast ml-2 mb-3 mt-2 p-2">
-                    <h3></h3>
-                    <p></p>
+                <div  class="days col-2 rounded forcast ml-2 mb-3 mt-2 p-2">
+                    <h6>
+                        <u id="day5"></u>
+                    </h6>
+                    <p id="day5Temp" ></p>
+                    <p id="day5Hum"></p>
+                    <p id="day5Wind"></p>
                 </div>
             </div>
 
@@ -77,6 +100,7 @@
         </div>
 
     </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="script.js"></script>
 </body>
 
