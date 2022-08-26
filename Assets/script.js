@@ -42,7 +42,7 @@ var day5Wind = document.getElementById('day5Wind');
 //button.addEventListener('click',function(){
 function getWeather(searchInput) {
     //fetching the longitude and latitude for the user input
-    fetch(`https:api.openweathermap.org/geo/1.0/direct?q=${searchInput}&limit=5&appid=${weatherApiKey}`)
+    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${searchInput}&limit=5&appid=${weatherApiKey}`)
         .then(response => response.json())
         .then(data => {
             console.log(data)
