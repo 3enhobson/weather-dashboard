@@ -10,5 +10,5 @@ Building this application I learned how to fetch data from an API, display that 
 
 https://3enhobson.github.io/weather-dashboard/
     
-![Weather Dashboard](Assets/images/weatherDashboard.png)
+![Weather Dashboard](Assets/images/weather_dashboard.png)
     
