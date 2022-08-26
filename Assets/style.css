@@ -2,6 +2,12 @@
     border: dotted red 2px;
 }*/
 
+body {
+    background-image: linear-gradient(rgba(0,8,25,0.3),rgba(0,8,25,0.3)), url(./images/cloud.jpeg);
+   
+    background-size: cover;
+}
+
 h1 {
     display: flex;
     justify-content: center;
@@ -9,7 +15,7 @@ h1 {
 }
 
 header{
-    background-color: lightskyblue;
+    background-color: #70a9d7;
     padding: 20px 0 20px 0;
     border-bottom: solid black 5px;
 }
@@ -22,7 +28,7 @@ header{
     display: flex;
     justify-content: flex-start;
     /*border: solid black 2px;*/
-    background-color: lightskyblue;
+    background-color: #c9cbcb;
     margin: 30px 30px 17px 0;
     padding: 5px;
     
@@ -52,12 +58,14 @@ h2 {
     display: flex;
 }
 
+
+
 /*.days {
     margin: 5px
 }*/
 
 .days {
-    background-color: lightskyblue;
+    background-color: #c9cbcb;
 }
 
 .low {
