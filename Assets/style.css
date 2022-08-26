@@ -23,13 +23,15 @@ header{
     justify-content: flex-start;
     /*border: solid black 2px;*/
     background-color: lightskyblue;
-    margin: 30px 30px 17px 30px;
+    margin: 30px 30px 17px 0;
     padding: 5px;
     
 }
 
 #city-search {
     display: inline-block;
+    width: 175px;
+    
 }
 
 h2 {
@@ -42,6 +44,8 @@ h2 {
     display: flex;
     border: solid black 2px;
     background-color: grey;
+    height: 40px;
+    margin-bottom: 2px;
 }
 
 .container {
@@ -74,4 +78,22 @@ h2 {
 
 .extreme {
     background-color: blueviolet;
+}
+
+.history {
+    display: block;
+    width: 175px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+#recentSearch {
+    padding-left: 15px;
+    width: 40px;
 }
